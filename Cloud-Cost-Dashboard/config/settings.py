@@ -18,8 +18,8 @@ AWS_REGION = os.getenv("AWS_REGION", "us-east-1")
 
 TODAY = date.today()
 
-START_DATE = "2025-08-01"
-END_DATE = "2026-09-24"
+# START_DATE = "2025-08-01"
+# END_DATE = "2026-09-24"
 
-# START_DATE = (TODAY - timedelta(days=1)).strftime("%Y-%m-%d")
-# END_DATE = TODAY.strftime("%Y-%m-%d")
+START_DATE = (TODAY - timedelta(days=1)).strftime("%Y-%m-%d")
+END_DATE = TODAY.strftime("%Y-%m-%d")
