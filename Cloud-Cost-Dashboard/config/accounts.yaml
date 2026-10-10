@@ -1,0 +1,15 @@
+aws:
+
+  # Normal standalone AWS account
+  - account_name: symphonize-dev
+    profile: dev
+    account_type: standalone
+    enabled: true
+
+  # AWS Organization / Tower account
+  - account_name: A2-Tower
+    profile: A2
+    account_type: organization
+    enabled: true
+
+gcp: []
